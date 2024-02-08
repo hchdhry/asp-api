@@ -5,5 +5,6 @@ namespace TodoApi.models
         public long Id {get; set;}
         public string? Name {get; set;}
         public bool IsComplete {get; set;}
+        public string secret{get; set;}
     }
 }
